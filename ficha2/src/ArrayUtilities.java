@@ -9,5 +9,41 @@
  * @author Turma A
  */
 public class ArrayUtilities {
+
+    static String toString(int[] array) {
+        String str = "[";
+        for (int i = 0; i < array.length; i++) {            
+            if (i == array.length - 1){
+                str += array[i] + "]";
+            }
+            else
+                str += array[i] + ",";
+        }
+        return str;
+    }
+
+    static int maximumOf(int[] array) {
+        int max = 0;
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] > max)
+                max = array[i];
+        }
+        return max;
+    }
+
+    static int minimumOf(int[] array) {
+        int min = 5;
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] < min)
+                min = array[i];
+        }
+        return min;
+    }
+
+    static int copyOf(int[] array) {
+        
+    }
     
-}
+    
+
+} 
