@@ -18,7 +18,7 @@ public class Ficha2 {
         System.out.println(max);
         int min = ArrayUtilities.minimumOf(array);
         System.out.println(min);
-        int copy = ArrayUtilities.copyOf(array, int newLength);
+        int copy = ArrayUtilities.copyOf(array);
         System.out.println(copy);
     }
 }
