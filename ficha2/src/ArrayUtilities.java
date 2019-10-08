@@ -47,4 +47,8 @@ public class ArrayUtilities {
         }
         return copy;
     }
+
+    static int[] contains(int[] array, int n) {
+        
+    }
 } 
