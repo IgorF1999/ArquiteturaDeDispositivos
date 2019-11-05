@@ -20,7 +20,6 @@ public class main {
         System.out.println(car.toString());
         Vehicle motorcycle = new Motorcycle(2, 2008, "Yamaha", "r15", 10000 ,"Blue");
         System.out.println(motorcycle);
-        
     }
     
 }
