@@ -35,7 +35,7 @@ public class Menu {
         System.out.println("Introduza um comando:");
         String line = scanner.nextLine();
         Command command = Command.valueOf(line);
-        
+        /*
         if(command == Command.START){
             // start
         }
@@ -51,7 +51,7 @@ public class Menu {
         else if(command == Command.QUIT){
             // quit
         }
-        
+        */
         switch (command) {
             case START:
                 System.out.println("Start");
